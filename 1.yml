@@ -1,5 +1,5 @@
-name: install IIS on Windows Servers
-hosts: Windows
+- name: install IIS on Windows Servers 
+  hosts: Windows
 
 tasks:
   - name: Install IIS (Web-Server only)
